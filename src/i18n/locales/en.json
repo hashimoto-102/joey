@@ -1,0 +1,13 @@
+{
+  "timeUpAlert": "Time's up! Take a break!",
+  "changeLanguage": "Change Language",
+  "darkTheme": "Dark Theme",
+  "lightTheme": "Light Theme",
+  "timer": {
+    "focusTimer": "Focus Timer",
+    "remaining": "Remaining: {{count}} mins",
+    "start": "Start",
+    "pause": "Pause",
+    "reset": "Reset"
+  }
+}

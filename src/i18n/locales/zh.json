@@ -1,0 +1,13 @@
+{
+  "timeUpAlert": "時間到！休息一下吧！",
+  "changeLanguage": "切換語言",
+  "darkTheme": "深色模式",
+  "lightTheme": "淺色模式",
+  "timer": {
+    "focusTimer": "專注時間",
+    "remaining": "剩餘時間：{{count}} 分鐘",
+    "start": "開始計時",
+    "pause": "暫停",
+    "reset": "重置"
+  }
+}
