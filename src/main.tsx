@@ -9,7 +9,7 @@ import "./i18n";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
-      <ThemeProvider>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <App />
       </ThemeProvider>
     </BrowserRouter>

@@ -3,7 +3,9 @@ import { useTranslation } from "react-i18next";
 import { useTheme } from "next-themes";
 
 function TomatoClock(): React.JSX.Element {
-  const [timeLeft, setTimeLeft] = useState<number>(1500);
+  const [timeLeft, setTimeLeft] = useState<number>(
+    Number(import.meta.env.VITE_DEFAULT_TIME) || 1500,
+  );
   const [isActive, setIsActive] = useState<boolean>(false);
   const { theme, setTheme } = useTheme();
   const { t, i18n } = useTranslation();
