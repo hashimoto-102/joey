@@ -80,9 +80,15 @@ function TomatoClock(): React.JSX.Element {
             {t("timer.reset")}
           </button>
         </div>
+        <div>
+            
+
+        </div>
       </div>
     </div>
   );
 }
 
+
 export default TomatoClock;
+
